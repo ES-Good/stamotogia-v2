@@ -1465,7 +1465,7 @@ label.custom-checkbox .checkmark:after {
 ========================*/
 
 .slider {
-    background-image: url(../images/banner/banner1.jpg);
+    background-image: url(../images/banner/banner12.jpg);
     height: 800px;
 }
 .slider .banner-slider .banner-text {
@@ -4990,6 +4990,11 @@ width: calc(100% - 96px);
     height: 100%;
     top: 0;
     left: 0;
+}
+
+.btn-castom{
+    background-color:#dd3333;
+    color: #fff !important;
 }
 
 input:invalid:not(:placeholder-shown) {border-color: red;}
