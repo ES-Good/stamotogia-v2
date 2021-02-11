@@ -4997,5 +4997,70 @@ width: calc(100% - 96px);
     color: #fff !important;
 }
 
+.count{
+    position: relative;
+}
+
+.count-percent::after{
+    content: '%';
+}
+
+.header{
+    background-color: #ebebeb;
+}
+
+.header h5{
+    margin-bottom: 5px;
+}
+
+.link-map{
+    text-decoration: underline;
+}
+
+.logo-box{
+    position: relative;
+}
+
+.logo-box::after{
+    position: absolute;
+    content: '';
+    left: 55%;
+    transform: translateX(-50%);
+    height: 60%;
+    width: 3px;
+    background-color: red;
+}
+
+.logo{
+    width: 290px;
+}
+
+.line-left{
+    position: relative;
+}
+.line-left::after{
+    position: absolute;
+    content: '';
+    left: -50%;
+    width: 1px;
+    background-color: #E0E0E0;
+    height: 130%;
+}
+
+.header-ico{
+    margin-right: 15px;
+}
+
+.carousel_h-mini{
+    height: 460px;
+}
+
+.carousel-caption{
+    right: auto;
+    left: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
 input:invalid:not(:placeholder-shown) {border-color: red;}
 input:valid:not(:placeholder-shown) {border-color: green;}

@@ -50,7 +50,7 @@ $mail->Password = 'secret';
 $mail->setFrom('info@mistodent.com.ua', 'Стоматология');
 
 // Кому
-$mail->addAddress('mistodent2016@gmail.com');
+$mail->addAddress('mistodent@gmail.com');
 
 // Тема письма
 $mail->Subject = $subject;

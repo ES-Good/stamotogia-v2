@@ -431,6 +431,15 @@ Version: 1.0.0
 	.parallax{
 		background-position: -560px;
 	}
+	.logo-box h5{
+		font-size: 12px;
+	}
+	.logo-box::after{
+		display: none;
+	}
+	.line-left::after{
+		display: none;
+	}
 }
 @media (max-width: 460px) {
 	/*topbar*/
@@ -495,6 +504,9 @@ Version: 1.0.0
 	.carousel{
 		height: 400px;
 	}
+	.carousel_h-mini{
+		height: 260px;
+	}
 }
 
 @media (max-width: 386px) 
@@ -509,5 +521,8 @@ Version: 1.0.0
 @media (min-width: 1400px){
 	.carousel{
 		height: 540px;
+	}
+	.carousel_h-mini{
+		height: 460px;
 	}
 }
