@@ -5062,6 +5062,10 @@ width: calc(100% - 96px);
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
 }
+.link-mail{
+    text-decoration: underline;
+    color: blue !important;
+}
 
 input:invalid:not(:placeholder-shown) {border-color: red;}
 input:valid:not(:placeholder-shown) {border-color: green;}
