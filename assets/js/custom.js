@@ -744,3 +744,12 @@ $('.detail-page-slider1').slick({
      });
 
 })(jQuery);
+
+const btnShowCities = document.getElementById('btn-show-cities');
+const linkContaner = document.querySelector('.link-box');
+const redArrow = document.querySelector('.red-arrow');
+
+btnShowCities.onclick = function(){
+  linkContaner.classList.toggle('link-box-show');
+  redArrow.classList.toggle('red-arrow-animate');
+}

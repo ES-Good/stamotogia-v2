@@ -440,6 +440,20 @@ Version: 1.0.0
 	.line-left::after{
 		display: none;
 	}
+	.link-box{
+		position: relative;
+		display: block;
+		left: -30%;
+		border: none;
+		padding: 0;
+	}
+	.time-box{
+		margin-top: 80px !important;
+	}
+
+	.red-arrow{
+		display: none;
+	}
 }
 @media (max-width: 460px) {
 	/*topbar*/
@@ -509,20 +523,20 @@ Version: 1.0.0
 	}
 }
 
-@media (max-width: 386px) 
-{
-.shop-detail-contents .btn-first
-{
-    margin-left: 0!important;
-    
-}
+@media (max-width: 386px) {
+	.shop-detail-contents .btn-first{
+    	margin-left: 0!important;
+	}
+	.carousel-caption{
+		bottom: -70px;
+	}
 }
 
 @media (min-width: 1400px){
 	.carousel{
 		height: 540px;
 	}
-	.carousel_h-mini{
-		height: 460px;
+	.carousel-caption{
+		bottom: 10%;
 	}
 }

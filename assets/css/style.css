@@ -5058,13 +5058,59 @@ width: calc(100% - 96px);
 .carousel-caption{
     right: auto;
     left: auto;
-    bottom: 25%;
+    bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
 }
 .link-mail{
     text-decoration: underline;
     color: blue !important;
+}
+
+.link-centers{
+    text-decoration: underline;
+}
+
+.text-shadow-castom{
+    text-shadow: 0 0 15px #000;
+}
+
+.header__map-box{
+    position: relative;
+}
+
+.link-box{
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #ebebeb;
+    top: 60px;
+    left: -60px;
+    z-index: 99;
+    display: none;
+}
+
+.link-box-show{
+    display: block;
+}
+
+.red-arrow{
+    position: absolute;
+    top: 40%;
+    color: red;
+    font-weight: bold;
+    transform: rotate(180deg);
+    font-size: 36px;
+    transition: transform .5s;
+}
+
+.link-inner{
+    cursor: pointer;
+}
+
+.red-arrow-animate{
+    transform: rotate(270deg);
 }
 
 input:invalid:not(:placeholder-shown) {border-color: red;}
