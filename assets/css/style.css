@@ -5024,7 +5024,7 @@ width: calc(100% - 96px);
 .logo-box::after{
     position: absolute;
     content: '';
-    left: 55%;
+    left: 45%;
     transform: translateX(-50%);
     height: 60%;
     width: 3px;
