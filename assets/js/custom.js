@@ -745,11 +745,15 @@ $('.detail-page-slider1').slick({
 
 })(jQuery);
 
-const btnShowCities = document.getElementById('btn-show-cities');
+const btnShowInfoCitis = document.getElementById('btn-show-info');
+const btnShowPhone = document.getElementById('btn-show-phone');
+const phoneContainer = document.querySelector('.call-container');
 const linkContaner = document.querySelector('.link-box');
-const redArrow = document.querySelector('.red-arrow');
 
-btnShowCities.onclick = function(){
+btnShowInfoCitis.onclick = function(){
   linkContaner.classList.toggle('link-box-show');
-  redArrow.classList.toggle('red-arrow-animate');
+}
+
+btnShowPhone.onclick = function () {
+  phoneContainer.classList.toggle('call-container-show');
 }

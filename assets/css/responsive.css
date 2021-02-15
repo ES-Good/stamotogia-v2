@@ -442,17 +442,32 @@ Version: 1.0.0
 	}
 	.link-box{
 		position: relative;
-		display: block;
-		left: -30%;
+		display: none;
+		left: -34%;
 		border: none;
 		padding: 0;
+	}
+
+	.call-container{
+		position: relative;
+		border: none;
 	}
 	.time-box{
 		margin-top: 80px !important;
 	}
+	.logo{
+		width: 125px;
+	}
+	.link-box-show{
+		display: block;
+		top: 90px;
+		margin-bottom: 20px;
+	}
 
-	.red-arrow{
-		display: none;
+	.call-container-show{
+		display: block;
+		top: 90px;
+		top: 15px;
 	}
 }
 @media (max-width: 460px) {
